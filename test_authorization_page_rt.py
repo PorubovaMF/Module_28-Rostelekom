@@ -147,7 +147,7 @@ def test_show_error_message_in_case_of_wrong_phone_or_password(browser):
     # открываем страницу авторизации
     page.open()
 
-    phone = "79788987995"
+    phone = "79608923443"
     password = "FV4-eQcP2d-mGZ"
     # вводим телефон в поле авторизации
     page.enter_phone(phone)
