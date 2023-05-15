@@ -74,7 +74,7 @@ def test_show_error_message_in_case_surname_is_entered_not_in_сyrillic(browser)
     page.click_registration_button()
 
     page2 = RegistrationPage(browser, browser.current_url)
-    surname = "Ivanov"
+    surname = "Ivanova"
     # вводим фамилию латиницей в поле Имя
     page2.enter_surname(surname)
      # проверяем что появилась надпись "Необходимо заполнить поле кириллицей. От 2 до 30 символов."
