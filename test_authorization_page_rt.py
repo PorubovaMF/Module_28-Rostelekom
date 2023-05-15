@@ -74,7 +74,7 @@ def test_account_tab_is_active_when_account_is_entered_in_the_field(browser):
     # открываем страницу авторизации
     page.open()
 
-    account_number = "167057361440"
+    account_number = "1684169833426"
     # вводим номер лицевого счета в поле авторизации
     page.enter_login(account_number)
     # проверяем что таб Лицевой счет стал активным
@@ -165,7 +165,7 @@ def test_show_error_message_in_case_of_wrong_email_or_password(browser):
     # открываем страницу авторизации
     page.open()
 
-    email = "artur.nersesyan@gmail.com"
+    email = "mfporubova@gmail.com"
     password = "FV4-eQcP2d-mGZ"
     # вводим имеил в поле авторизации
     page.enter_email(email)
